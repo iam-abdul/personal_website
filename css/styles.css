@@ -233,11 +233,6 @@ header, footer{
 	.contact-list a{
 		padding:  3px;
 	}
-	img{
-		width: 250px;
-		display: block;
-		margin: 5px auto;
-	}
 	.education {
     background-image: url(../images/edu_back_m.jpg);
     background-size: auto;
@@ -245,4 +240,10 @@ header, footer{
     padding-bottom: 100px;
     background-repeat: no-repeat;
 	}
+	img{
+		width: 250px;
+		display: block;
+		margin: 5px auto;
+	}
+	
 }
