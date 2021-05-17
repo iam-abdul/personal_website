@@ -120,7 +120,7 @@ header{
 	padding: 8px;
 	border-radius: 4px;
 	display: inline-block;
-	position: right;
+
 }
 .projects .btn:hover{
 	background: rgb(47, 48, 97, 80%);
@@ -176,6 +176,7 @@ footer{
 	display: inline-block;
 }
 
+
 /*	responsive
 --------------------------------*/
 @media screen and (min-width: 750px) {
@@ -212,4 +213,36 @@ header, footer{
 		padding:  5px;
 	}
 
+}
+
+@media screen and (max-width: 450px) {
+	h1{
+		font-size: 50px;
+		line-height: 0.9;
+		margin-bottom: 10px;
+	}
+	h2{
+
+		line-height: 1;
+		font-size: 30px;
+	}
+	body{
+		font-size: 12px;
+		line-height: 1.5;
+	}
+	.contact-list a{
+		padding:  3px;
+	}
+	img{
+		width: 250px;
+		display: block;
+		margin: 5px auto;
+	}
+	.education {
+    background-image: url(../images/edu_back_m.jpg);
+    background-size: auto;
+    background-position: top;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+	}
 }
